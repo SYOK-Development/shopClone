@@ -19,9 +19,10 @@ public class Category {
     private String name;
     private ArrayList<Product> productList;
 
-    public Category(String id,String name){
+    public Category(String id,String name,ArrayList<Product> productList){
         this.id = id;
         this.name = name;
+        this.productList = productList;
     }
 
     public String getCategoryName() {
